@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfluConnect — Plataforma de Gestión para Influencers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a class="navbar-brand navbar-brand-custom" href="#">
+                <i class="fas fa-bolt"></i>InfluConnect
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="fas fa-bars" style="color: var(--text-secondary);"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-1">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom active" href="#"><i class="fas fa-home me-1"></i>Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="clientes.html"><i class="fas fa-users me-1"></i>Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="campanas.html"><i class="fas fa-bullhorn me-1"></i>Campañas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="productos.html"><i class="fas fa-box me-1"></i>Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="testimonios.html"><i class="fas fa-star me-1"></i>Testimonios</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO ==================== -->
+    <section class="hero-section">
+        <div class="particles-container">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-rocket"></i>
+                Plataforma de Gestión v1.0
+            </div>
+            <h1 class="hero-title">
+                Gestiona tu imperio<br>
+                <span class="gradient-text">como influencer</span>
+            </h1>
+            <p class="hero-subtitle">
+                Administra clientes, campañas, productos y testimonios desde un solo lugar.
+                Tu plataforma profesional para crecer sin límites.
+            </p>
+            <div class="hero-buttons">
+                <a href="clientes.html" class="btn-primary-custom">
+                    <i class="fas fa-arrow-right"></i>Comenzar ahora
+                </a>
+                <a href="#features" class="btn-outline-custom">
+                    <i class="fas fa-info-circle"></i>Ver módulos
+                </a>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <span>Desliza</span>
+        </div>
+    </section>
+
+    <!-- ==================== FEATURES ==================== -->
+    <section id="features" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">
+                Módulos de la <span class="gradient-text">Plataforma</span>
+            </h2>
+            <p class="section-subtitle">
+                Cuatro módulos independientes para gestionar cada aspecto de tu negocio como influencer.
+            </p>
+
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 animate-on-scroll">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>Clientes</h4>
+                        <p>Registra y administra tu base de clientes con información de contacto completa.</p>
+                        <a href="clientes.html" class="feature-link">
+                            Gestionar <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 animate-on-scroll" style="transition-delay: 0.1s;">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h4>Campañas</h4>
+                        <p>Organiza tus campañas publicitarias por plataforma, fechas y presupuesto.</p>
+                        <a href="campanas.html" class="feature-link">
+                            Gestionar <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 animate-on-scroll" style="transition-delay: 0.2s;">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-box"></i>
+                        </div>
+                        <h4>Productos</h4>
+                        <p>Controla los productos que promocionas con precios, stock y categorías.</p>
+                        <a href="productos.html" class="feature-link">
+                            Gestionar <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 animate-on-scroll" style="transition-delay: 0.3s;">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>Testimonios</h4>
+                        <p>Recopila y gestiona los testimonios y reseñas de tus clientes satisfechos.</p>
+                        <a href="testimonios.html" class="feature-link">
+                            Gestionar <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== STATS ==================== -->
+    <section class="stats-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-6 animate-on-scroll">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="4">0</div>
+                        <div class="stat-label">Módulos CRUD</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 animate-on-scroll" style="transition-delay: 0.1s;">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="20">0</div>
+                        <div class="stat-label">Endpoints REST</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 animate-on-scroll" style="transition-delay: 0.2s;">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="5">0</div>
+                        <div class="stat-label">Operaciones CRUD</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 animate-on-scroll" style="transition-delay: 0.3s;">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-label">% Funcional</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CTA ==================== -->
+    <section class="cta-section section-padding">
+        <div class="container">
+            <div class="cta-box animate-on-scroll">
+                <h2>¿Listo para <span class="gradient-text">construir</span> tu API?</h2>
+                <p>Abre tu IDE, configura Spring Boot y conecta tu backend con este frontend. ¡El éxito te espera!</p>
+                <a href="clientes.html" class="btn-primary-custom">
+                    <i class="fas fa-code"></i>Ir al primer módulo
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer-custom">
+        <div class="container">
+            <p>
+                <i class="fas fa-bolt" style="color: var(--primary);"></i>
+                <strong>InfluConnect</strong> — Evaluación Final Backend con Spring Boot
+            </p>
+            <p style="margin-top: 0.3rem;">
+                Hecho con <i class="fas fa-heart"></i> para futuros desarrolladores
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/api.js"></script>
+    <script>
+        // Counter animation
+        function animateCounters() {
+            document.querySelectorAll('.stat-number').forEach(counter => {
+                const target = +counter.getAttribute('data-target');
+                const duration = 2000;
+                const step = target / (duration / 16);
+                let current = 0;
+
+                const update = () => {
+                    current += step;
+                    if (current < target) {
+                        counter.textContent = Math.ceil(current);
+                        requestAnimationFrame(update);
+                    } else {
+                        counter.textContent = target;
+                    }
+                };
+                update();
+            });
+        }
+
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateCounters();
+                    statsObserver.disconnect();
+                }
+            });
+        }, { threshold: 0.5 });
+
+        const statsSection = document.querySelector('.stats-section');
+        if (statsSection) statsObserver.observe(statsSection);
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
