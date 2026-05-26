@@ -16,7 +16,7 @@ import com.example.InfluConnect.modelos.Campana;
 import com.example.InfluConnect.servicios.CampanaServicio;
 
 @RestController
-@RequestMapping("/api/v1/campanas")
+@RequestMapping("/campanas")
 public class CampanaControlador {
 
     @Autowired
