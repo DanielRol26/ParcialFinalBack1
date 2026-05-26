@@ -16,7 +16,7 @@ import com.example.InfluConnect.modelos.Cliente;
 import com.example.InfluConnect.servicios.ClienteServicio;
 
 @RestController
-@RequestMapping("/clientes")
+@RequestMapping("/api/clientes")
 public class ClienteControlador {
 
     @Autowired
